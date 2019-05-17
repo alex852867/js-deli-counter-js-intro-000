@@ -7,7 +7,7 @@ function takeANumber(katzDeliLine, name) {
 var line = []
 function currentLine(katzDeliLine) {
   for (var i = 0; i < katzDeliLine.length; i++) {
-    line.push(`${i+1}. ${katzDeliLine[i]}` )
+    line.push(`${i+1}. ${katzDeliLine[i]}`)
 
 }
       if (katzDeliLine.length > 1) {
