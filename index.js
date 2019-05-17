@@ -6,7 +6,7 @@ function takeANumber(katzDeliLine, name) {
 }
 function currentLine(katzDeliLine) {
   for (var i = 0; i < katzDeliLine.length; i++) {
-    line.push (`${i+1}. ${line[i]}`)
+    katzDeliLine.push (`${i+1}. ${line[i]}`)
 }
       if (katzDeliLine.length > 1) {
     return `The line is currently: ${line}`
