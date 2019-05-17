@@ -1,6 +1,6 @@
 
 
-function takeANumber(katzDeliLine, name) {
-  katzDeliLine.push(name);
+ffunction takeANumber(katzDeliLine, name) {
+  katzDeliline.push(name);
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
