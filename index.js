@@ -4,9 +4,11 @@ function takeANumber(katzDeliLine, name) {
   katzDeliLine.push(name);
   return `Welcome, ${name}. You are number ${katzDeliLine.length} in line.`;
 }
+
+var customer = katzDeliLine[0];
+
 function nowServing (katzDeliLine) {
 if (katzDeliLine.length > 1) {
-var customer = katzDeliLine[0];
 katzDeliLine.shift();
 return `Now serving ${customer}`
 } else {
